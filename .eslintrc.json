@@ -1,0 +1,11 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["schoolseat"],
+  "rules": {
+    "no-console": "off",
+    "prettier/prettier": "off"
+  }
+}

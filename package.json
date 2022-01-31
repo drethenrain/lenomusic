@@ -1,0 +1,25 @@
+{
+  "name": "lenomusic",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/drethenrain/lenomusic.git",
+  "author": "drethenrain <drethenrain@hotmail.com>",
+  "scripts": {
+    "dev": "nodemon src/server",
+    "start": "node src/server",
+    "lint": "eslint ./ --ext \"js\"",
+    "lint:fix": "eslint ./ --ext \"js\" --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "eslint": "^7.32.0",
+    "eslint-config-schoolseat": "^1.1.0",
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}
